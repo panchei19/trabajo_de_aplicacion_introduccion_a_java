@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package UT1AT2parte2;
+package Eje1y2;
 
 /**
  *
  * @author franc
  */
-public class parte2 {
+public class UtilMath {
     public static void main(String[] args) {
         System.out.println(sumaParesImpares(10)); //25
         System.out.println(sumaParesImpares(11)); //30
