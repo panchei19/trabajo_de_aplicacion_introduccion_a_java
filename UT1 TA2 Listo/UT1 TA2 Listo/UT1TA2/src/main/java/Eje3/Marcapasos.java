@@ -1,24 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 package Eje3;
 
-/**
- *
- * @author franc
- */
 public class Marcapasos {
-    short presionSanguinea;
-    short frecuenciaCartiaca;
-    short nivelAzucar;
-    long maximaFuera;
-    float minimoTiempo;
-    double bateriaRestante;
+    short presionSanguinea; //2 bytes
+    short frecuenciaCartiaca; //2 bytes
+    short nivelAzucar; //2 bytes
+    long maximaFuera; // 8 bytes
+    float minimoTiempo; // 4 bytes
+    double bateriaRestante; //8 bytes
     char[] codigoFabricante; //x8 veces
     //Esto ocupa 42bytes + 12bytes del objeto + 2bytes para que sea multiplo de 8.
     
 }
     
-
